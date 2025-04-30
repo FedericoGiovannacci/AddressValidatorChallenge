@@ -103,7 +103,7 @@ async function searchEthereum(root: ReturnType<typeof bip32.fromSeed>, config: E
     console.log(`❌ ${config.label} address not found within search limit.`);
 }
 
-// BTC search helper function for both SegWit and Legacy, also works with Taproot if config is changed accordingly
+// BTC search helper function for both SegWit and Legacy, also work with Taproot if config is changed accordingly
 async function searchBitcoin(root: ReturnType<typeof bip32.fromSeed>, config: BtcTarget) {
     const network = bitcoin.networks.bitcoin;
 

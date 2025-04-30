@@ -15,7 +15,7 @@
         "ethereum",
         "typescript"
     ],
-    "author": "Your Name",
+    "author": "Federico Giovannacci - CoBuilders Challenge",
     "license": "MIT",
     "dependencies": {
         "bip32": "^1.0.0",
